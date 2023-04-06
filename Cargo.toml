@@ -12,8 +12,8 @@ readme = "README.md"
 description = "Data Distribution Service (DDS) implementation"
 homepage = "https://s2e-systems.com/products/dust-dds"
 repository = "https://github.com/s2e-systems/dust-dds-gen"
-keywords = ["dds", "rtps", "middleware", "network", "udp"]
-categories = ["api-bindings", "network-programming"]
+keywords = ["dds", "idl", "middleware"]
+categories = ["compilers"]
 
 [dependencies]
 pest = "=2.5.3"
