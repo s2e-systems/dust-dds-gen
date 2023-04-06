@@ -7,9 +7,9 @@ authors = [
 	"Pierre Martinet <pmartinet@s2e-systems.com>"
 ]
 license = "Apache-2.0"
-edition = "2018"
+edition = "2021"
 readme = "README.md"
-description = "Data Distribution Service (DDS) implementation"
+description = "Compiler for OMG IDL to Rust"
 homepage = "https://s2e-systems.com/products/dust-dds"
 repository = "https://github.com/s2e-systems/dust-dds-gen"
 keywords = ["dds", "idl", "middleware"]
