@@ -1,9 +1,19 @@
 [package]
 name = "dust_dds_gen"
 version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = [
+	"Joao Rebelo <jrebelo@s2e-systems.com>",
+	"Stefan Kimmer <skimmer@s2e-systems.com>",
+	"Pierre Martinet <pmartinet@s2e-systems.com>"
+]
+license = "Apache-2.0"
+edition = "2018"
+readme = "README.md"
+description = "Data Distribution Service (DDS) implementation"
+homepage = "https://s2e-systems.com/products/dust-dds"
+repository = "https://github.com/s2e-systems/dust-dds-gen"
+keywords = ["dds", "rtps", "middleware", "network", "udp"]
+categories = ["api-bindings", "network-programming"]
 
 [dependencies]
 pest = "=2.5.3"
